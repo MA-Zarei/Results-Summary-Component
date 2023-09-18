@@ -1,0 +1,12 @@
+.main{
+    width: 650px;
+    height: max-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow:rgba(196, 198, 255, 0.51) 0px 21px 45px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+}

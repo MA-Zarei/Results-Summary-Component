@@ -1,0 +1,54 @@
+.resultDiv{
+    width: 50%;
+    height: 100%;
+    background-color: #6441FD    ;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.resultDiv h2{
+    color: #d0d0fc;
+    font-size: 22px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+.resultDiv .circle{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.resultDiv .circle .firstl{
+    color: white;
+    font-size: 65px;
+    font-weight: bold;
+    margin-top: 18px;
+    margin-bottom: 8px;
+}
+.resultDiv .circle .secl{
+    color: #8D82FF;
+    font-weight: 500;
+    margin-top: -10px;
+}
+.resultDiv .status{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.resultDiv .desc{
+    color: white;
+    padding: 0px 62px;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
