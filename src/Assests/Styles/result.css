@@ -11,9 +11,9 @@
 }
 .resultDiv h2{
     color: #d0d0fc;
-    font-size: 22px;
+    font-size: 21px;
     margin-top: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 33px;
 }
 .resultDiv .circle{
     width: 180px;
@@ -31,24 +31,24 @@
     color: white;
     font-size: 65px;
     font-weight: bold;
-    margin-top: 18px;
+    margin-top: 12px;
     margin-bottom: 8px;
 }
 .resultDiv .circle .secl{
     color: #8D82FF;
     font-weight: 500;
-    margin-top: -10px;
+    margin-top: -15px;
 }
 .resultDiv .status{
     color: white;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 28px;
     margin-top: 30px;
 }
 .resultDiv .desc{
     color: white;
     padding: 0px 62px;
     font-size: 14px;
-    margin-top: -10px;
-    margin-bottom: 40px;
+    margin-top: -15px;
+    margin-bottom: 50px;
 }

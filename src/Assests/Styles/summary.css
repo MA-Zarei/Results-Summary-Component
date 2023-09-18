@@ -1,8 +1,80 @@
 .sumDiv{
     width: 50%;
-    height: 100%;
+    border-radius: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    align-items: center;
+}
+.sumDiv h2{
+    font-size: 21px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    width: 50%;
+    align-self: flex-start;
+    color: hsl(224, 30%, 27%);
+}
+.sumDiv .line{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 80%;
+    box-sizing: border-box;
+    padding: 15px 13px;
+    border-radius: 10px;
+    margin-bottom: 14px;
+}
+.reaction{
+    background-color: #FFF5F4;
+}
+.sumDiv .reaction .reactionStat{
+    color: hsl(0, 100%, 67%);
+    font-weight: bold;
+}
+.memory{
+    background-color: #FFF7FB;
+}
+.memoStat{
+    color: hsl(39, 100%, 56%);
+    font-weight: bold;
+}
+.verbal{
+    background-color: #F2FBFA;
+}
+.verStat{
+    color: hsl(166, 100%, 37%);
+    font-weight: bold;
+}
+.visual{
+    background-color: #F1F4FD;
+}
+.visStat{
+    color: hsl(234, 85%, 45%);
+    font-weight: bold;
+}
+img{
+    margin-right: 8px;
+    margin-bottom: -3.5px;
+}
+.score{
+    color: hsl(224, 30%, 27%);
+    font-weight: 800;
+    margin-right: 7px;
+}
+.defScore{
+    font-weight: 700;
+    color: hsl(242, 21%, 64%);
+}
+.btn{
+    width: 80%;
+    color: white;
+    font-size: 16px;
+    padding: 16px 0px;
+    margin-top: 20px;
+    border-radius: 30px;
+    border: none;
+    transition: 'background' 0.3s ease-in-out;
+    cursor: pointer;
 }
