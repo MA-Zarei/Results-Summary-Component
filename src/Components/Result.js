@@ -10,7 +10,7 @@ const Result = () =>{
                 <p className="secl">of 100</p>
             </div>
             <p className="status">Great</p>
-            <p className="desc">Your scored higher than 65% of the people who have taken these tests.</p>
+            <p className="desc">You scored higher than 65% of the people who have taken these tests.</p>
         </div>
     )
 }

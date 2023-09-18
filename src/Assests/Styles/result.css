@@ -1,7 +1,7 @@
 .resultDiv{
     width: 50%;
     height: 100%;
-    background-color: #6441FD    ;
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     border-radius: 30px;
     display: flex;
     flex-direction: column;
@@ -51,4 +51,23 @@
     font-size: 14px;
     margin-top: -15px;
     margin-bottom: 50px;
+}
+
+@media screen and (max-width:700px) {
+    .resultDiv{
+        box-sizing: border-box;
+        padding-top: 0px;
+        border-radius: 0px 0px 30px 30px;
+        width: 100.5vw;
+    }
+    .resultDiv h2{
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+    .resultDiv .desc{
+        margin-top: -15px;
+        margin-bottom: 35px;
+        font-size: 16px;
+        padding: 0px 50px;
+    }
 }
