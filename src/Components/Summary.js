@@ -7,7 +7,7 @@ import VisualIcon from '../Assests/icons/icon-visual.svg'
 import {motion} from 'framer-motion'
 
 
-const Summary = () =>{
+const Summary = (props) =>{
     const gradientAnim={
         initial:{
             '--gradient-start':'hsl(224, 30%, 27%)',
@@ -31,7 +31,7 @@ const Summary = () =>{
                 </span>
                 <span>
                     <span className="score">
-                        80
+                        {props.scores[0]}
                     </span>
                     <span className="defScore">
                         / 100
@@ -45,7 +45,7 @@ const Summary = () =>{
                 </span>
                 <span>
                     <span className="score">
-                        92
+                    {props.scores[1]}
                     </span>
                     <span className="defScore">
                         / 100
@@ -59,7 +59,7 @@ const Summary = () =>{
                 </span>
                 <span>
                     <span className="score">
-                        61
+                    {props.scores[2]}
                     </span>
                     <span className="defScore">
                         / 100
@@ -73,7 +73,7 @@ const Summary = () =>{
                 </span>
                 <span>
                     <span className="score">
-                        72
+                    {props.scores[3]}
                     </span>
                     <span className="defScore">
                         / 100

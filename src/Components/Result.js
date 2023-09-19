@@ -1,12 +1,12 @@
 import React from "react";
 import '../Assests/Styles/result.css'
 
-const Result = () =>{
+const Result = (props) =>{
     return(
         <div className="resultDiv">
             <h2>Your Result</h2>
             <div className="circle">
-                <p className="firstl">76</p>
+                <p className="firstl">{props.score}</p>
                 <p className="secl">of 100</p>
             </div>
             <p className="status">Great</p>
