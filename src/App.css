@@ -39,7 +39,7 @@
 
 @font-face {
   font-family: 'HankenGrotesk';
-  src: local('HankenGrotesk') ,url('./Assests/Fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
+  src: local('HankenGrotesk') ,url('./assets/Fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
 }
 *{
   font-family: 'HankenGrotesk';

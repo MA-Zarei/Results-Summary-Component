@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import '../Assests/Styles/container.css'
+import '../assets/Styles/container.css'
 import Result from "./Result";
 import Summary from "./Summary";
 import Data from "../data.json"

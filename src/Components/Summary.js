@@ -1,9 +1,9 @@
 import React from "react";
-import '../Assests/Styles/summary.css'
-import ReactionIcon from '../Assests/icons/icon-reaction.svg'
-import MemoryIcon from '../Assests/icons/icon-memory.svg'
-import VerbalIcon from '../Assests/icons/icon-verbal.svg'
-import VisualIcon from '../Assests/icons/icon-visual.svg'
+import '../assets/Styles/summary.css'
+import ReactionIcon from '../assets/icons/icon-reaction.svg'
+import MemoryIcon from '../assets/icons/icon-memory.svg'
+import VerbalIcon from '../assets/icons/icon-verbal.svg'
+import VisualIcon from '../assets/icons/icon-visual.svg'
 import {motion} from 'framer-motion'
 
 
