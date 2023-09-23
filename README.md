@@ -44,6 +44,7 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
+- [Framer Motion](https://www.framer.com/motion/) - Motion library for React
 
 
 ## Author
